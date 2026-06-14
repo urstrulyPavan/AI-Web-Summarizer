@@ -11,7 +11,7 @@ The project demonstrates the integration of Chrome Extension APIs, content scrip
 ## Live Demo
 
 Backend API:
-https://AI-Web-Summarizer.onrender.com
+https://ai-web-summarizer-lwuk.onrender.com/
 
 ---
 

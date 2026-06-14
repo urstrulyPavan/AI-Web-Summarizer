@@ -20,6 +20,13 @@ const FALLBACK_MODEL = "gemini-3.1-flash-lite";
 const primaryModelInstance = genAI.getGenerativeModel({ model: PRIMARY_MODEL });
 const fallbackModelInstance = genAI.getGenerativeModel({ model: FALLBACK_MODEL });
 
+app.get("/", (req, res) => {
+    res.json({
+        status: "success",
+        message: "AI Web Summarizer API is running"
+    });
+});
+
 app.post("/summarize", async (req, res) => {
     try {
         const { text } = req.body;
